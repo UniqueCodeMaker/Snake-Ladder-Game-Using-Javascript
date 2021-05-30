@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>Snake and Ladder Game</title>
+<link type="text/css" rel="stylesheet" href="css\snlCSS.css">
+</head>
+<body>
+<div id="cen" align="center">
+<div id="mainpage">
+<div id="upper">
+<div id="uptext" align="left">
+<h1><a href="">Snake and Ladder</a></h1>
+</div>
+<div id="slogan" align="left">
+<p><a href="">A simple snake and ladder Game by RUDRAX</a></p>
+</div>
+</div>
+<div id="upmenu" align="right">
+<div class="tooltip">How to Play 
+<span class="tooltiptext"><strong><font color="black">Instructions:</font></strong><br>1.In this game there are two players,the first player has pinkish chip on the left hand side and second player has orange chip on the right side.<br>
+2.First simply enter the name of the players on the both field and click start.<br>
+3.Simply click on the dice of your side to roll the dice.
+</span>
+</div>
+</div>
+<div id="left" align="left">
+<div id="fo">
+<form name="formm">
+Enter Name:<input id="fname1">
+<br><br><br>
+<input type="button" name="button" value="Player 1" id="pl1" disabled><br><br>
+<center>
+<img style="cursor:pointer" src="images\Dice.png" id="pldice1" onclick="diceNumber1()" width="100px" height="100px">
+<br><br>
+<div id="pinkchip">
+</div>
+<textarea id="txt" hidden></textarea>
+</center>
+
+</form>
+</div>
+</div>
+<div id="center">
+<table>
+<!--First Row-->
+<tr>
+<td id="f100"></td><td id="f99"></td><td id="f98"></td><td id="f97"></td><td id="f96"></td><td id="f95"></td><td id="f94"></td><td id="f93"></td><td id="f92"></td><td id="f91"></td>
+</tr>
+<!--Second Row-->
+<tr>
+<td id="f81"></td><td id="f82"></td><td id="f83"></td><td id="f84"></td><td id="f85"></td><td id="f86"></td><td id="f87"></td><td id="f88"></td><td id="f89"></td><td id="f90"></td>
+</tr>
+<!--Third Row-->
+<tr>
+<td id="f80"></td><td id="f79"></td><td id="f78"></td><td id="f77"></td><td id="f76"></td><td id="f75"></td><td id="f74"></td><td id="f73"></td><td id="f72"></td><td id="f71"></td>
+</tr>
+<!--Fourth Row-->
+<tr>
+<td id="f61"></td><td id="f62"></td><td id="f63"></td><td id="f64"></td><td id="f65"></td><td id="f66"></td><td id="f67"></td><td id="f68"></td><td id="f69"></td><td id="f70"></td>
+</tr>
+<!--Fifth Row-->
+<tr>
+<td id="f60"></td><td id="f59"></td><td id="f58"></td><td id="f57"></td><td id="f56"></td><td id="f55"></td><td id="f54"></td><td id="f53"></td><td id="f52"></td><td id="f51"></td>
+</tr>
+<!--Sixth Row-->
+<tr>
+<td id="f41"></td><td id="f42"></td><td id="f43"></td><td id="f44"></td><td id="f45"></td><td id="f46"></td><td id="f47"></td><td id="f48"></td><td id="f49"></td><td id="f50"></td>
+</tr>
+<!--Seventh Row-->
+<tr>
+<td id="f40"></td><td id="f39"></td><td id="f38"></td><td id="f37"></td><td id="f36"></td><td id="f35"></td><td id="f34"></td><td id="f33"></td><td id="f32"></td><td id="f31"></td>
+</tr>
+<!--Eigth Row-->
+<tr>
+<td id="f21"></td><td id="f22"></td><td id="f23"></td><td id="f24"></td><td id="f25"></td><td id="f26"></td><td id="f27"></td><td id="f28"></td><td id="f29"></td><td id="f30"></td>
+</tr>
+<!--Ninth Row-->
+<tr>
+<td id="f20"></td><td id="f19"></td><td id="f18"></td><td id="f17"></td><td id="f16"></td><td id="f15"></td><td id="f14"></td><td id="f13"></td><td id="f12"></td><td id="f11"></td>
+</tr>
+<!--Tenth Row-->
+<tr>
+<td id="f1"></td><td id="f2"></td><td id="f3"></td><td id="f4"></td><td id="f5"></td><td id="f6"></td><td id="f7"></td><td id="f8"></td><td id="f9"></td><td id="f10"></td>
+</tr>
+</table>
+</div>
+<div id="right">
+<div id="fo">
+<form name="formm">
+Enter Name:<input id="fname2"><br><br><br>
+<input type="button" name="button" value="Player 2" id="pl2" disabled><br><br>
+<center>
+<img style="cursor:pointer" src="images\Dice.png" id="pldice2" onclick="diceNumber2()" width="100px" height="100px">
+<br><br>
+<div id="greenchip">
+</div>
+<textarea id="txt1" hidden></textarea>
+</center>
+
+</form>
+</div>
+</div>
+<div id="down">
+<div id="downmenu">
+<center>
+<button type="button" name="submit" id="strtbtn" onclick="startup()" value="Start">START</button></a>
+<button type="button" onclick="restart()" id="rstrtbtn" value="Restart">RESTART</button><br><br>
+</center>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="js/snljs.js"></script>
+<p id="demo"></p>
+</div>
+</div>
+</body>
+</html>

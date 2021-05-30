@@ -1,0 +1,230 @@
+table {
+//border:1px solid blue;
+width:605px;
+height:600px;
+ background-image: url("snlboard.png");
+background-repeat: no-repeat;
+}
+tr,td {//border:1px solid green;
+border-radius: 25px;
+}
+#mainpage {
+width:1100px;
+height:780px;
+margin:20px 0 0 20px;
+border:10px solid #0e83cd;
+border-radius: 25px 0 25px 0;
+}
+#upper {
+position: relative;
+top:-20px;
+width:1100px;
+height:100px;
+background-color:#28abe3; 
+border-radius: 12px 0 0 0;
+}
+#left {
+padding:10px;
+float:left;
+width:180px;
+height:600px;
+top:-43px;
+//background-color: red;
+position:relative;
+//border-left: 1px solid 
+}
+#center {
+width:600px; 
+height:600px;
+top:-20px;
+position: relative;
+//background-color: green;
+float:left;
+margin:0 0 0 50px;
+//border:1px solid;
+}
+#right {
+padding:10px;
+float:right;
+width:180px;
+height:600px;
+top:-43px;
+position: relative;
+//background-color: red;
+}
+#down {
+width:1100px;
+//background-color:orange;
+position:relative;
+top:0px;
+border-radius: 0 0 25px 0;
+float:left;
+font-family: segoe UI;
+}
+#uptext {
+font-family:Segoe Print;
+font-size: 15px;
+position: relative;
+left:20px;
+}
+#uptext a {
+text-decoration:none;
+color:#ffa200; 
+}
+#uptext a:hover {
+text-decoration:none;
+color:white; 
+}
+#slogan {
+top:-30px;
+position: relative;
+font-family:Segoe Print;
+left:300px;
+font-size:20px;
+}
+p a {
+text-decoration: none;
+color:black;
+}
+p a:hover {
+color:white;
+}
+#fo {
+font-family:Elephant;
+}
+#pl1 {
+background-color: c1f800;
+border-radius: 12px;
+width:150px;
+height:30px;
+}
+#pl2 {
+background-color: c1f800;
+border-radius: 12px;
+width:150px;
+height:30px;
+}
+#pinkchip {
+background-color: pink;
+border-radius: 25px;
+border:10spx solid;
+width:50px;
+height:50px;
+}
+#greenchip {
+background-color:#21ff1c;
+border-radius: 25px;
+border:1px solid;
+width:50px;
+height:50px;
+}
+form a {
+text-decoration: none;
+}
+a {
+text-decoration: none;
+}
+#strtbtn {
+background-color:#0e83cd;
+color:blue;
+width:100px;
+height: 30px;
+color:white;
+cursor:pointer;
+border:2px solid white;
+border-radius:0 12px 0 12px;
+margin:3px;
+padding:2px;
+font-family:Elephant;
+font-size:18px
+}
+#rstrtbtn {
+background-color:#0e83cd;
+color:blue;
+width:120px;
+height: 30px;
+color:white;
+border:2px solid white;
+border-radius:0 12px 0 12px;
+margin:3px;
+padding:2px;
+cursor:pointer;
+font-family: Elephant;
+font-size:18px	
+}
+#strtbtn:hover {
+background-color:white;
+color:#0e83cd;
+}
+#rstrtbtn:hover {
+background-color:white;
+color:#0e83cd;
+}
+#downmenu {
+width:1100px;
+height:35px;
+background-color:#0e83cd; 
+position:relative;
+bottom:20px;
+}
+#upmenu {
+width:1100px;
+height:30px;
+background-color:#1fda9a;
+position:relative;
+top:-43px;
+right:0;
+color:white;
+font-size:23px;
+font-family:sans-serif;
+}
+#ht {
+padding:0 5px 0 0;
+width:150px;
+height:25px;
+border:2px solid white;
+height:;
+border-radius: 0 12px 0 12px;
+right:15px;
+position: relative;
+}
+#ht:hover {
+color:#69d2e7;
+background-color: white;	
+border:2px solid white;
+border-radius: 0 12px 0 12px;
+cursor:pointer;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border:3px solid white;
+    border-radius: 0px 5px 0 5px;
+    height:23px;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 800px;
+    font-family: segoe print;
+    background-color:#0e83cd;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size:15px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+
+}
+.tooltip:hover {
+background-color: white;
+color:#28abe3;
+
+}
